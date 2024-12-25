@@ -40,7 +40,7 @@ def send_email(to_email, subject, body, from_email, from_password):
         print(f"Failed to send email to {to_email}: {e}")
 
 if __name__ == "__main__":
-    pdf_path = "/home/hp/Desktop/scripts/files/hr.pdf"
+    pdf_path = "/home/hp/Desktop/scripts/docs/hr.pdf"
     extracted_details = extract_details_from_pdf(pdf_path)
 
     your_email = "your_email@gmail.com"
